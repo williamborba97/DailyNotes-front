@@ -9,11 +9,10 @@ import { Details } from './pages/details';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <GlobalStyles/>
-      <Details />
-
-    </ThemeProvider>
+    <React.StrictMode>
+      <ThemeProvider theme={theme}>
+        <GlobalStyles/>
+        <Details />
+      </ThemeProvider>
     </React.StrictMode>,
 );
