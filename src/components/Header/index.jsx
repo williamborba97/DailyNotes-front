@@ -1,16 +1,16 @@
-import { Container } from "./styles";
+import { Container,Profile } from "./styles";
 
 export function Header(){
     return(
         <Container> 
-        <profile>
+        <Profile>
             <img src='https://github.com/williamborba97.png'/>
 
             <div>
                 <span>Bem vindo</span>
                 <strong>William Gulart Borba</strong>
             </div>
-        </profile>
+        </Profile>
         </Container>
        );
 

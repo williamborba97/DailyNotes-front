@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Container = styled.header`
 grid-area: header;
@@ -18,11 +18,8 @@ padding: 0 80px;
 background-color: red;`
 
 
-export const profile = styled.div`
+export const Profile = styled.div`
 
 display: flex;
-
-
-
-
+aling-items:center:
 `
