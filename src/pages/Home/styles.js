@@ -17,7 +17,7 @@ export const Container = styled.div`
 `;
 export const Brand = styled.div`
     grid-area: brand ;
-    background-color: ;
+    
 
     display: flex;
     justify-content: center;
@@ -53,7 +53,9 @@ export const Search = styled.div`
 `;
 export const Content = styled.div`
    grid-area: content ;
-   background-color: ;
+   padding:   0 64px ;
+   overflow: auto;
+
 `;
 export const NewNote = styled.button`
    grid-area: newnote ;
