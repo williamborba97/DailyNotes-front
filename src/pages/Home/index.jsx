@@ -1,11 +1,11 @@
 import { FiPlus, FiSearch } from "react-icons/fi"
 import { Container,Brand,Menu,Search,Content,NewNote } from "./styles";
 
-import { Header } from "../../components/Header"
-import { ButtonText } from "../../components/ButtonText"
+import { Header } from "../../components/Header";
+import { ButtonText } from "../../components/ButtonText";
 import { Input } from "../../components/Input";
 import { Note } from "../../components/Note";
-import {Section} from "../../components/Section"
+import {Section} from "../../components/Section";
 
 
 export function Home(){
