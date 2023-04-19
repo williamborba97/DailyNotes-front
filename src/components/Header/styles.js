@@ -1,8 +1,9 @@
 import styled from "styled-components"
-import {RiShutDownLine} from "react-icons/ri"
+import { Link } from "react-router-dom";
 
 export const Container = styled.header`
 grid-area: header;
+
 
 height: 105px;
 width: 100%;
@@ -19,7 +20,7 @@ padding: 0 80px;
 
 
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
 
 display: flex;
 align-items:center;
